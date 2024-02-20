@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pytest-tutorial"
+version = "0.1.0"
+description = "pytest tutorials using VSCode"
+authors = ["vasilogi <jean.vasil@gmailcom>"]
+readme = "README.md"
+packages = [{include = "pytest_tutorial"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^8.0.1"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
